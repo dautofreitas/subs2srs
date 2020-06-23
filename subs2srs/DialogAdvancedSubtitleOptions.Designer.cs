@@ -130,13 +130,16 @@
             this.checkBoxColorText = new System.Windows.Forms.CheckBox();
             this.checkBoxColorBackground = new System.Windows.Forms.CheckBox();
             this.labelVobsubColorOutline = new System.Windows.Forms.Label();
+            this.TabNewFunctions = new System.Windows.Forms.TabPage();
+            this.numericUpDownSubsConcateFewer = new System.Windows.Forms.NumericUpDown();
+            this.label1 = new System.Windows.Forms.Label();
+            this.checkBoxSubsConcateFewer = new System.Windows.Forms.CheckBox();
             this.panelBottom = new System.Windows.Forms.Panel();
             this.buttonCancel = new System.Windows.Forms.Button();
             this.buttonOK = new System.Windows.Forms.Button();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.colorDialog1 = new System.Windows.Forms.ColorDialog();
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
-            this.TabNewFunctions = new System.Windows.Forms.TabPage();
             this.tabControl1.SuspendLayout();
             this.tabPageSubs1Prune.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownSubs1ExcludeLongerThanTime)).BeginInit();
@@ -163,6 +166,8 @@
             this.groupBoxJapaneseSpecific.SuspendLayout();
             this.tabPageVobsub.SuspendLayout();
             this.groupBoxCheckVobsubColors.SuspendLayout();
+            this.TabNewFunctions.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownSubsConcateFewer)).BeginInit();
             this.panelBottom.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
@@ -206,9 +211,9 @@
             this.tabPageSubs1Prune.Controls.Add(this.groupBoxSubs1IncludeText);
             this.tabPageSubs1Prune.Controls.Add(this.checkBoxSubs1RemoveStyledLines);
             this.tabPageSubs1Prune.Location = new System.Drawing.Point(4, 25);
-            this.tabPageSubs1Prune.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPageSubs1Prune.Margin = new System.Windows.Forms.Padding(4);
             this.tabPageSubs1Prune.Name = "tabPageSubs1Prune";
-            this.tabPageSubs1Prune.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPageSubs1Prune.Padding = new System.Windows.Forms.Padding(4);
             this.tabPageSubs1Prune.Size = new System.Drawing.Size(595, 448);
             this.tabPageSubs1Prune.TabIndex = 0;
             this.tabPageSubs1Prune.Text = "Subs1";
@@ -216,7 +221,7 @@
             // textBoxSubs1JoinSentenceChars
             // 
             this.textBoxSubs1JoinSentenceChars.Location = new System.Drawing.Point(395, 174);
-            this.textBoxSubs1JoinSentenceChars.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBoxSubs1JoinSentenceChars.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxSubs1JoinSentenceChars.Name = "textBoxSubs1JoinSentenceChars";
             this.textBoxSubs1JoinSentenceChars.Size = new System.Drawing.Size(100, 22);
             this.textBoxSubs1JoinSentenceChars.TabIndex = 16;
@@ -228,7 +233,7 @@
             this.checkBoxSubs1JoinSentences.Checked = true;
             this.checkBoxSubs1JoinSentences.CheckState = System.Windows.Forms.CheckState.Checked;
             this.checkBoxSubs1JoinSentences.Location = new System.Drawing.Point(8, 176);
-            this.checkBoxSubs1JoinSentences.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBoxSubs1JoinSentences.Margin = new System.Windows.Forms.Padding(4);
             this.checkBoxSubs1JoinSentences.Name = "checkBoxSubs1JoinSentences";
             this.checkBoxSubs1JoinSentences.Size = new System.Drawing.Size(374, 21);
             this.checkBoxSubs1JoinSentences.TabIndex = 15;
@@ -255,7 +260,7 @@
             this.checkBoxSubs1RemovedNoCounterpart.Checked = true;
             this.checkBoxSubs1RemovedNoCounterpart.CheckState = System.Windows.Forms.CheckState.Checked;
             this.checkBoxSubs1RemovedNoCounterpart.Location = new System.Drawing.Point(8, 7);
-            this.checkBoxSubs1RemovedNoCounterpart.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBoxSubs1RemovedNoCounterpart.Margin = new System.Windows.Forms.Padding(4);
             this.checkBoxSubs1RemovedNoCounterpart.Name = "checkBoxSubs1RemovedNoCounterpart";
             this.checkBoxSubs1RemovedNoCounterpart.Size = new System.Drawing.Size(293, 21);
             this.checkBoxSubs1RemovedNoCounterpart.TabIndex = 13;
@@ -272,7 +277,7 @@
             0,
             0});
             this.numericUpDownSubs1ExcludeLongerThanTime.Location = new System.Drawing.Point(224, 146);
-            this.numericUpDownSubs1ExcludeLongerThanTime.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.numericUpDownSubs1ExcludeLongerThanTime.Margin = new System.Windows.Forms.Padding(4);
             this.numericUpDownSubs1ExcludeLongerThanTime.Maximum = new decimal(new int[] {
             99999,
             0,
@@ -310,7 +315,7 @@
             // 
             this.checkBoxSubs1ExcludeLongerThanTime.AutoSize = true;
             this.checkBoxSubs1ExcludeLongerThanTime.Location = new System.Drawing.Point(8, 148);
-            this.checkBoxSubs1ExcludeLongerThanTime.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBoxSubs1ExcludeLongerThanTime.Margin = new System.Windows.Forms.Padding(4);
             this.checkBoxSubs1ExcludeLongerThanTime.Name = "checkBoxSubs1ExcludeLongerThanTime";
             this.checkBoxSubs1ExcludeLongerThanTime.Size = new System.Drawing.Size(188, 21);
             this.checkBoxSubs1ExcludeLongerThanTime.TabIndex = 10;
@@ -329,9 +334,9 @@
             this.groupBoxSubs1ExludeText.Controls.Add(this.textBoxSubs1ExcludedWords);
             this.groupBoxSubs1ExludeText.Controls.Add(this.buttonExcludeFromFileSubs1);
             this.groupBoxSubs1ExludeText.Location = new System.Drawing.Point(8, 327);
-            this.groupBoxSubs1ExludeText.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBoxSubs1ExludeText.Margin = new System.Windows.Forms.Padding(4);
             this.groupBoxSubs1ExludeText.Name = "groupBoxSubs1ExludeText";
-            this.groupBoxSubs1ExludeText.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBoxSubs1ExludeText.Padding = new System.Windows.Forms.Padding(4);
             this.groupBoxSubs1ExludeText.Size = new System.Drawing.Size(571, 114);
             this.groupBoxSubs1ExludeText.TabIndex = 1;
             this.groupBoxSubs1ExludeText.TabStop = false;
@@ -354,7 +359,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.textBoxSubs1ExcludedWords.Location = new System.Drawing.Point(11, 59);
-            this.textBoxSubs1ExcludedWords.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBoxSubs1ExcludedWords.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxSubs1ExcludedWords.Multiline = true;
             this.textBoxSubs1ExcludedWords.Name = "textBoxSubs1ExcludedWords";
             this.textBoxSubs1ExcludedWords.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
@@ -365,7 +370,7 @@
             // 
             this.buttonExcludeFromFileSubs1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.buttonExcludeFromFileSubs1.Location = new System.Drawing.Point(433, 23);
-            this.buttonExcludeFromFileSubs1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buttonExcludeFromFileSubs1.Margin = new System.Windows.Forms.Padding(4);
             this.buttonExcludeFromFileSubs1.Name = "buttonExcludeFromFileSubs1";
             this.buttonExcludeFromFileSubs1.Size = new System.Drawing.Size(127, 28);
             this.buttonExcludeFromFileSubs1.TabIndex = 0;
@@ -383,7 +388,7 @@
             0,
             0});
             this.numericUpDownSubs1ExcludeShorterThanTime.Location = new System.Drawing.Point(224, 118);
-            this.numericUpDownSubs1ExcludeShorterThanTime.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.numericUpDownSubs1ExcludeShorterThanTime.Margin = new System.Windows.Forms.Padding(4);
             this.numericUpDownSubs1ExcludeShorterThanTime.Maximum = new decimal(new int[] {
             99999,
             0,
@@ -421,7 +426,7 @@
             // 
             this.checkBoxSubs1ExcludeShorterThanTime.AutoSize = true;
             this.checkBoxSubs1ExcludeShorterThanTime.Location = new System.Drawing.Point(8, 119);
-            this.checkBoxSubs1ExcludeShorterThanTime.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBoxSubs1ExcludeShorterThanTime.Margin = new System.Windows.Forms.Padding(4);
             this.checkBoxSubs1ExcludeShorterThanTime.Name = "checkBoxSubs1ExcludeShorterThanTime";
             this.checkBoxSubs1ExcludeShorterThanTime.Size = new System.Drawing.Size(193, 21);
             this.checkBoxSubs1ExcludeShorterThanTime.TabIndex = 7;
@@ -435,7 +440,7 @@
             // 
             this.numericUpDownSubs1ExcludeFewer.Enabled = false;
             this.numericUpDownSubs1ExcludeFewer.Location = new System.Drawing.Point(224, 90);
-            this.numericUpDownSubs1ExcludeFewer.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.numericUpDownSubs1ExcludeFewer.Margin = new System.Windows.Forms.Padding(4);
             this.numericUpDownSubs1ExcludeFewer.Maximum = new decimal(new int[] {
             99999,
             0,
@@ -469,7 +474,7 @@
             // 
             this.checkBoxSubs1ExcludeFewer.AutoSize = true;
             this.checkBoxSubs1ExcludeFewer.Location = new System.Drawing.Point(8, 91);
-            this.checkBoxSubs1ExcludeFewer.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBoxSubs1ExcludeFewer.Margin = new System.Windows.Forms.Padding(4);
             this.checkBoxSubs1ExcludeFewer.Name = "checkBoxSubs1ExcludeFewer";
             this.checkBoxSubs1ExcludeFewer.Size = new System.Drawing.Size(210, 21);
             this.checkBoxSubs1ExcludeFewer.TabIndex = 4;
@@ -481,7 +486,7 @@
             // 
             this.checkBoxSubs1ExcludeDuplicateLines.AutoSize = true;
             this.checkBoxSubs1ExcludeDuplicateLines.Location = new System.Drawing.Point(8, 63);
-            this.checkBoxSubs1ExcludeDuplicateLines.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBoxSubs1ExcludeDuplicateLines.Margin = new System.Windows.Forms.Padding(4);
             this.checkBoxSubs1ExcludeDuplicateLines.Name = "checkBoxSubs1ExcludeDuplicateLines";
             this.checkBoxSubs1ExcludeDuplicateLines.Size = new System.Drawing.Size(173, 21);
             this.checkBoxSubs1ExcludeDuplicateLines.TabIndex = 3;
@@ -497,9 +502,9 @@
             this.groupBoxSubs1IncludeText.Controls.Add(this.textBoxSubs1IncludedWords);
             this.groupBoxSubs1IncludeText.Controls.Add(this.buttonIncludeFromFileSubs1);
             this.groupBoxSubs1IncludeText.Location = new System.Drawing.Point(8, 206);
-            this.groupBoxSubs1IncludeText.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBoxSubs1IncludeText.Margin = new System.Windows.Forms.Padding(4);
             this.groupBoxSubs1IncludeText.Name = "groupBoxSubs1IncludeText";
-            this.groupBoxSubs1IncludeText.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBoxSubs1IncludeText.Padding = new System.Windows.Forms.Padding(4);
             this.groupBoxSubs1IncludeText.Size = new System.Drawing.Size(571, 114);
             this.groupBoxSubs1IncludeText.TabIndex = 0;
             this.groupBoxSubs1IncludeText.TabStop = false;
@@ -522,7 +527,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.textBoxSubs1IncludedWords.Location = new System.Drawing.Point(11, 59);
-            this.textBoxSubs1IncludedWords.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBoxSubs1IncludedWords.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxSubs1IncludedWords.Multiline = true;
             this.textBoxSubs1IncludedWords.Name = "textBoxSubs1IncludedWords";
             this.textBoxSubs1IncludedWords.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
@@ -533,7 +538,7 @@
             // 
             this.buttonIncludeFromFileSubs1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.buttonIncludeFromFileSubs1.Location = new System.Drawing.Point(433, 23);
-            this.buttonIncludeFromFileSubs1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buttonIncludeFromFileSubs1.Margin = new System.Windows.Forms.Padding(4);
             this.buttonIncludeFromFileSubs1.Name = "buttonIncludeFromFileSubs1";
             this.buttonIncludeFromFileSubs1.Size = new System.Drawing.Size(127, 28);
             this.buttonIncludeFromFileSubs1.TabIndex = 0;
@@ -548,7 +553,7 @@
             this.checkBoxSubs1RemoveStyledLines.Checked = true;
             this.checkBoxSubs1RemoveStyledLines.CheckState = System.Windows.Forms.CheckState.Checked;
             this.checkBoxSubs1RemoveStyledLines.Location = new System.Drawing.Point(8, 36);
-            this.checkBoxSubs1RemoveStyledLines.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBoxSubs1RemoveStyledLines.Margin = new System.Windows.Forms.Padding(4);
             this.checkBoxSubs1RemoveStyledLines.Name = "checkBoxSubs1RemoveStyledLines";
             this.checkBoxSubs1RemoveStyledLines.Size = new System.Drawing.Size(328, 21);
             this.checkBoxSubs1RemoveStyledLines.TabIndex = 2;
@@ -577,7 +582,7 @@
             this.tabPageSubs2Prune.Controls.Add(this.groupBoxSub2ExcludeText);
             this.tabPageSubs2Prune.Controls.Add(this.groupBoxSubs2IncludeText);
             this.tabPageSubs2Prune.Location = new System.Drawing.Point(4, 25);
-            this.tabPageSubs2Prune.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPageSubs2Prune.Margin = new System.Windows.Forms.Padding(4);
             this.tabPageSubs2Prune.Name = "tabPageSubs2Prune";
             this.tabPageSubs2Prune.Size = new System.Drawing.Size(595, 448);
             this.tabPageSubs2Prune.TabIndex = 4;
@@ -586,7 +591,7 @@
             // textBoxSubs2JoinSentenceChars
             // 
             this.textBoxSubs2JoinSentenceChars.Location = new System.Drawing.Point(395, 174);
-            this.textBoxSubs2JoinSentenceChars.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBoxSubs2JoinSentenceChars.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxSubs2JoinSentenceChars.Name = "textBoxSubs2JoinSentenceChars";
             this.textBoxSubs2JoinSentenceChars.Size = new System.Drawing.Size(100, 22);
             this.textBoxSubs2JoinSentenceChars.TabIndex = 18;
@@ -598,7 +603,7 @@
             this.checkBoxSubs2JoinSentences.Checked = true;
             this.checkBoxSubs2JoinSentences.CheckState = System.Windows.Forms.CheckState.Checked;
             this.checkBoxSubs2JoinSentences.Location = new System.Drawing.Point(8, 176);
-            this.checkBoxSubs2JoinSentences.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBoxSubs2JoinSentences.Margin = new System.Windows.Forms.Padding(4);
             this.checkBoxSubs2JoinSentences.Name = "checkBoxSubs2JoinSentences";
             this.checkBoxSubs2JoinSentences.Size = new System.Drawing.Size(374, 21);
             this.checkBoxSubs2JoinSentences.TabIndex = 17;
@@ -625,7 +630,7 @@
             this.checkBoxSubs2RemoveNoCounterpart.Checked = true;
             this.checkBoxSubs2RemoveNoCounterpart.CheckState = System.Windows.Forms.CheckState.Checked;
             this.checkBoxSubs2RemoveNoCounterpart.Location = new System.Drawing.Point(8, 7);
-            this.checkBoxSubs2RemoveNoCounterpart.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBoxSubs2RemoveNoCounterpart.Margin = new System.Windows.Forms.Padding(4);
             this.checkBoxSubs2RemoveNoCounterpart.Name = "checkBoxSubs2RemoveNoCounterpart";
             this.checkBoxSubs2RemoveNoCounterpart.Size = new System.Drawing.Size(293, 21);
             this.checkBoxSubs2RemoveNoCounterpart.TabIndex = 14;
@@ -639,7 +644,7 @@
             this.checkBoxSubs2RemoveStyledLines.Checked = true;
             this.checkBoxSubs2RemoveStyledLines.CheckState = System.Windows.Forms.CheckState.Checked;
             this.checkBoxSubs2RemoveStyledLines.Location = new System.Drawing.Point(8, 36);
-            this.checkBoxSubs2RemoveStyledLines.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBoxSubs2RemoveStyledLines.Margin = new System.Windows.Forms.Padding(4);
             this.checkBoxSubs2RemoveStyledLines.Name = "checkBoxSubs2RemoveStyledLines";
             this.checkBoxSubs2RemoveStyledLines.Size = new System.Drawing.Size(328, 21);
             this.checkBoxSubs2RemoveStyledLines.TabIndex = 2;
@@ -656,7 +661,7 @@
             0,
             0});
             this.numericUpDownSubs2ExcludeLongerThanTime.Location = new System.Drawing.Point(224, 146);
-            this.numericUpDownSubs2ExcludeLongerThanTime.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.numericUpDownSubs2ExcludeLongerThanTime.Margin = new System.Windows.Forms.Padding(4);
             this.numericUpDownSubs2ExcludeLongerThanTime.Maximum = new decimal(new int[] {
             99999,
             0,
@@ -694,7 +699,7 @@
             // 
             this.checkBoxSubs2ExcludeLongerThanTime.AutoSize = true;
             this.checkBoxSubs2ExcludeLongerThanTime.Location = new System.Drawing.Point(8, 148);
-            this.checkBoxSubs2ExcludeLongerThanTime.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBoxSubs2ExcludeLongerThanTime.Margin = new System.Windows.Forms.Padding(4);
             this.checkBoxSubs2ExcludeLongerThanTime.Name = "checkBoxSubs2ExcludeLongerThanTime";
             this.checkBoxSubs2ExcludeLongerThanTime.Size = new System.Drawing.Size(188, 21);
             this.checkBoxSubs2ExcludeLongerThanTime.TabIndex = 10;
@@ -713,7 +718,7 @@
             0,
             0});
             this.numericUpDownSubs2ExcludeShorterThanTime.Location = new System.Drawing.Point(224, 118);
-            this.numericUpDownSubs2ExcludeShorterThanTime.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.numericUpDownSubs2ExcludeShorterThanTime.Margin = new System.Windows.Forms.Padding(4);
             this.numericUpDownSubs2ExcludeShorterThanTime.Maximum = new decimal(new int[] {
             99999,
             0,
@@ -751,7 +756,7 @@
             // 
             this.checkBoxSubs2ExcludeShorterThanTime.AutoSize = true;
             this.checkBoxSubs2ExcludeShorterThanTime.Location = new System.Drawing.Point(8, 119);
-            this.checkBoxSubs2ExcludeShorterThanTime.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBoxSubs2ExcludeShorterThanTime.Margin = new System.Windows.Forms.Padding(4);
             this.checkBoxSubs2ExcludeShorterThanTime.Name = "checkBoxSubs2ExcludeShorterThanTime";
             this.checkBoxSubs2ExcludeShorterThanTime.Size = new System.Drawing.Size(193, 21);
             this.checkBoxSubs2ExcludeShorterThanTime.TabIndex = 7;
@@ -765,7 +770,7 @@
             // 
             this.numericUpDownSubs2ExcludeFewer.Enabled = false;
             this.numericUpDownSubs2ExcludeFewer.Location = new System.Drawing.Point(224, 90);
-            this.numericUpDownSubs2ExcludeFewer.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.numericUpDownSubs2ExcludeFewer.Margin = new System.Windows.Forms.Padding(4);
             this.numericUpDownSubs2ExcludeFewer.Maximum = new decimal(new int[] {
             99999,
             0,
@@ -799,7 +804,7 @@
             // 
             this.checkBoxSubs2ExcludeFewer.AutoSize = true;
             this.checkBoxSubs2ExcludeFewer.Location = new System.Drawing.Point(8, 91);
-            this.checkBoxSubs2ExcludeFewer.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBoxSubs2ExcludeFewer.Margin = new System.Windows.Forms.Padding(4);
             this.checkBoxSubs2ExcludeFewer.Name = "checkBoxSubs2ExcludeFewer";
             this.checkBoxSubs2ExcludeFewer.Size = new System.Drawing.Size(210, 21);
             this.checkBoxSubs2ExcludeFewer.TabIndex = 4;
@@ -811,7 +816,7 @@
             // 
             this.checkBoxSubs2ExcludeDuplicateLines.AutoSize = true;
             this.checkBoxSubs2ExcludeDuplicateLines.Location = new System.Drawing.Point(8, 63);
-            this.checkBoxSubs2ExcludeDuplicateLines.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBoxSubs2ExcludeDuplicateLines.Margin = new System.Windows.Forms.Padding(4);
             this.checkBoxSubs2ExcludeDuplicateLines.Name = "checkBoxSubs2ExcludeDuplicateLines";
             this.checkBoxSubs2ExcludeDuplicateLines.Size = new System.Drawing.Size(173, 21);
             this.checkBoxSubs2ExcludeDuplicateLines.TabIndex = 3;
@@ -827,9 +832,9 @@
             this.groupBoxSub2ExcludeText.Controls.Add(this.textBoxSubs2ExcludedWords);
             this.groupBoxSub2ExcludeText.Controls.Add(this.buttonExcludeFromFileSubs2);
             this.groupBoxSub2ExcludeText.Location = new System.Drawing.Point(8, 327);
-            this.groupBoxSub2ExcludeText.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBoxSub2ExcludeText.Margin = new System.Windows.Forms.Padding(4);
             this.groupBoxSub2ExcludeText.Name = "groupBoxSub2ExcludeText";
-            this.groupBoxSub2ExcludeText.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBoxSub2ExcludeText.Padding = new System.Windows.Forms.Padding(4);
             this.groupBoxSub2ExcludeText.Size = new System.Drawing.Size(571, 114);
             this.groupBoxSub2ExcludeText.TabIndex = 1;
             this.groupBoxSub2ExcludeText.TabStop = false;
@@ -852,7 +857,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.textBoxSubs2ExcludedWords.Location = new System.Drawing.Point(11, 59);
-            this.textBoxSubs2ExcludedWords.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBoxSubs2ExcludedWords.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxSubs2ExcludedWords.Multiline = true;
             this.textBoxSubs2ExcludedWords.Name = "textBoxSubs2ExcludedWords";
             this.textBoxSubs2ExcludedWords.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
@@ -863,7 +868,7 @@
             // 
             this.buttonExcludeFromFileSubs2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.buttonExcludeFromFileSubs2.Location = new System.Drawing.Point(433, 23);
-            this.buttonExcludeFromFileSubs2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buttonExcludeFromFileSubs2.Margin = new System.Windows.Forms.Padding(4);
             this.buttonExcludeFromFileSubs2.Name = "buttonExcludeFromFileSubs2";
             this.buttonExcludeFromFileSubs2.Size = new System.Drawing.Size(127, 28);
             this.buttonExcludeFromFileSubs2.TabIndex = 0;
@@ -881,9 +886,9 @@
             this.groupBoxSubs2IncludeText.Controls.Add(this.textBoxSubs2IncludedWords);
             this.groupBoxSubs2IncludeText.Controls.Add(this.buttonIncludeFromFileSubs2);
             this.groupBoxSubs2IncludeText.Location = new System.Drawing.Point(8, 206);
-            this.groupBoxSubs2IncludeText.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBoxSubs2IncludeText.Margin = new System.Windows.Forms.Padding(4);
             this.groupBoxSubs2IncludeText.Name = "groupBoxSubs2IncludeText";
-            this.groupBoxSubs2IncludeText.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBoxSubs2IncludeText.Padding = new System.Windows.Forms.Padding(4);
             this.groupBoxSubs2IncludeText.Size = new System.Drawing.Size(571, 114);
             this.groupBoxSubs2IncludeText.TabIndex = 0;
             this.groupBoxSubs2IncludeText.TabStop = false;
@@ -906,7 +911,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.textBoxSubs2IncludedWords.Location = new System.Drawing.Point(11, 59);
-            this.textBoxSubs2IncludedWords.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBoxSubs2IncludedWords.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxSubs2IncludedWords.Multiline = true;
             this.textBoxSubs2IncludedWords.Name = "textBoxSubs2IncludedWords";
             this.textBoxSubs2IncludedWords.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
@@ -917,7 +922,7 @@
             // 
             this.buttonIncludeFromFileSubs2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.buttonIncludeFromFileSubs2.Location = new System.Drawing.Point(433, 23);
-            this.buttonIncludeFromFileSubs2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buttonIncludeFromFileSubs2.Margin = new System.Windows.Forms.Padding(4);
             this.buttonIncludeFromFileSubs2.Name = "buttonIncludeFromFileSubs2";
             this.buttonIncludeFromFileSubs2.Size = new System.Drawing.Size(127, 28);
             this.buttonIncludeFromFileSubs2.TabIndex = 0;
@@ -933,7 +938,7 @@
             this.tabPageContext.Controls.Add(this.groupBoxTrailingLines);
             this.tabPageContext.Controls.Add(this.groupBoxLeadingLines);
             this.tabPageContext.Location = new System.Drawing.Point(4, 25);
-            this.tabPageContext.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPageContext.Margin = new System.Windows.Forms.Padding(4);
             this.tabPageContext.Name = "tabPageContext";
             this.tabPageContext.Size = new System.Drawing.Size(595, 448);
             this.tabPageContext.TabIndex = 6;
@@ -946,7 +951,7 @@
             this.textBoxContextHelp.BackColor = System.Drawing.Color.LemonChiffon;
             this.textBoxContextHelp.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBoxContextHelp.Location = new System.Drawing.Point(11, 12);
-            this.textBoxContextHelp.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBoxContextHelp.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxContextHelp.Multiline = true;
             this.textBoxContextHelp.Name = "textBoxContextHelp";
             this.textBoxContextHelp.ReadOnly = true;
@@ -968,9 +973,9 @@
             this.groupBoxTrailingLines.Controls.Add(this.labelContextNext);
             this.groupBoxTrailingLines.Controls.Add(this.numericUpDownContextTrailing);
             this.groupBoxTrailingLines.Location = new System.Drawing.Point(11, 261);
-            this.groupBoxTrailingLines.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBoxTrailingLines.Margin = new System.Windows.Forms.Padding(4);
             this.groupBoxTrailingLines.Name = "groupBoxTrailingLines";
-            this.groupBoxTrailingLines.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBoxTrailingLines.Padding = new System.Windows.Forms.Padding(4);
             this.groupBoxTrailingLines.Size = new System.Drawing.Size(571, 166);
             this.groupBoxTrailingLines.TabIndex = 1;
             this.groupBoxTrailingLines.TabStop = false;
@@ -992,7 +997,7 @@
             this.checkBoxTrailingIncludeVideoClips.Checked = true;
             this.checkBoxTrailingIncludeVideoClips.CheckState = System.Windows.Forms.CheckState.Checked;
             this.checkBoxTrailingIncludeVideoClips.Location = new System.Drawing.Point(220, 78);
-            this.checkBoxTrailingIncludeVideoClips.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBoxTrailingIncludeVideoClips.Margin = new System.Windows.Forms.Padding(4);
             this.checkBoxTrailingIncludeVideoClips.Name = "checkBoxTrailingIncludeVideoClips";
             this.checkBoxTrailingIncludeVideoClips.Size = new System.Drawing.Size(138, 21);
             this.checkBoxTrailingIncludeVideoClips.TabIndex = 4;
@@ -1016,7 +1021,7 @@
             this.checkBoxTrailingIncludeSnapshots.Checked = true;
             this.checkBoxTrailingIncludeSnapshots.CheckState = System.Windows.Forms.CheckState.Checked;
             this.checkBoxTrailingIncludeSnapshots.Location = new System.Drawing.Point(12, 78);
-            this.checkBoxTrailingIncludeSnapshots.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBoxTrailingIncludeSnapshots.Margin = new System.Windows.Forms.Padding(4);
             this.checkBoxTrailingIncludeSnapshots.Name = "checkBoxTrailingIncludeSnapshots";
             this.checkBoxTrailingIncludeSnapshots.Size = new System.Drawing.Size(137, 21);
             this.checkBoxTrailingIncludeSnapshots.TabIndex = 3;
@@ -1029,7 +1034,7 @@
             this.checkBoxTrailingIncludeAudioClips.Checked = true;
             this.checkBoxTrailingIncludeAudioClips.CheckState = System.Windows.Forms.CheckState.Checked;
             this.checkBoxTrailingIncludeAudioClips.Location = new System.Drawing.Point(220, 49);
-            this.checkBoxTrailingIncludeAudioClips.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBoxTrailingIncludeAudioClips.Margin = new System.Windows.Forms.Padding(4);
             this.checkBoxTrailingIncludeAudioClips.Name = "checkBoxTrailingIncludeAudioClips";
             this.checkBoxTrailingIncludeAudioClips.Size = new System.Drawing.Size(139, 21);
             this.checkBoxTrailingIncludeAudioClips.TabIndex = 2;
@@ -1039,7 +1044,7 @@
             // numericUpDownTrailingRange
             // 
             this.numericUpDownTrailingRange.Location = new System.Drawing.Point(140, 106);
-            this.numericUpDownTrailingRange.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.numericUpDownTrailingRange.Margin = new System.Windows.Forms.Padding(4);
             this.numericUpDownTrailingRange.Maximum = new decimal(new int[] {
             99999,
             0,
@@ -1056,7 +1061,7 @@
             this.checkBoxTrailingIncludeDialog.CheckState = System.Windows.Forms.CheckState.Checked;
             this.checkBoxTrailingIncludeDialog.Enabled = false;
             this.checkBoxTrailingIncludeDialog.Location = new System.Drawing.Point(12, 49);
-            this.checkBoxTrailingIncludeDialog.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBoxTrailingIncludeDialog.Margin = new System.Windows.Forms.Padding(4);
             this.checkBoxTrailingIncludeDialog.Name = "checkBoxTrailingIncludeDialog";
             this.checkBoxTrailingIncludeDialog.Size = new System.Drawing.Size(159, 21);
             this.checkBoxTrailingIncludeDialog.TabIndex = 2;
@@ -1077,7 +1082,7 @@
             // numericUpDownContextTrailing
             // 
             this.numericUpDownContextTrailing.Location = new System.Drawing.Point(265, 17);
-            this.numericUpDownContextTrailing.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.numericUpDownContextTrailing.Margin = new System.Windows.Forms.Padding(4);
             this.numericUpDownContextTrailing.Maximum = new decimal(new int[] {
             9,
             0,
@@ -1099,9 +1104,9 @@
             this.groupBoxLeadingLines.Controls.Add(this.checkBoxLeadingIncludeAudioClips);
             this.groupBoxLeadingLines.Controls.Add(this.checkBoxLeadingIncludeSnapshots);
             this.groupBoxLeadingLines.Location = new System.Drawing.Point(11, 80);
-            this.groupBoxLeadingLines.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBoxLeadingLines.Margin = new System.Windows.Forms.Padding(4);
             this.groupBoxLeadingLines.Name = "groupBoxLeadingLines";
-            this.groupBoxLeadingLines.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBoxLeadingLines.Padding = new System.Windows.Forms.Padding(4);
             this.groupBoxLeadingLines.Size = new System.Drawing.Size(571, 166);
             this.groupBoxLeadingLines.TabIndex = 0;
             this.groupBoxLeadingLines.TabStop = false;
@@ -1144,7 +1149,7 @@
             this.checkBoxLeadingIncludeVideoClips.Checked = true;
             this.checkBoxLeadingIncludeVideoClips.CheckState = System.Windows.Forms.CheckState.Checked;
             this.checkBoxLeadingIncludeVideoClips.Location = new System.Drawing.Point(220, 78);
-            this.checkBoxLeadingIncludeVideoClips.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBoxLeadingIncludeVideoClips.Margin = new System.Windows.Forms.Padding(4);
             this.checkBoxLeadingIncludeVideoClips.Name = "checkBoxLeadingIncludeVideoClips";
             this.checkBoxLeadingIncludeVideoClips.Size = new System.Drawing.Size(138, 21);
             this.checkBoxLeadingIncludeVideoClips.TabIndex = 4;
@@ -1154,7 +1159,7 @@
             // numericUpDownLeadingRange
             // 
             this.numericUpDownLeadingRange.Location = new System.Drawing.Point(140, 106);
-            this.numericUpDownLeadingRange.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.numericUpDownLeadingRange.Margin = new System.Windows.Forms.Padding(4);
             this.numericUpDownLeadingRange.Maximum = new decimal(new int[] {
             99999,
             0,
@@ -1167,7 +1172,7 @@
             // numericUpDownContextLeading
             // 
             this.numericUpDownContextLeading.Location = new System.Drawing.Point(307, 17);
-            this.numericUpDownContextLeading.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.numericUpDownContextLeading.Margin = new System.Windows.Forms.Padding(4);
             this.numericUpDownContextLeading.Maximum = new decimal(new int[] {
             9,
             0,
@@ -1184,7 +1189,7 @@
             this.checkBoxLeadingIncludeDialog.CheckState = System.Windows.Forms.CheckState.Checked;
             this.checkBoxLeadingIncludeDialog.Enabled = false;
             this.checkBoxLeadingIncludeDialog.Location = new System.Drawing.Point(12, 49);
-            this.checkBoxLeadingIncludeDialog.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBoxLeadingIncludeDialog.Margin = new System.Windows.Forms.Padding(4);
             this.checkBoxLeadingIncludeDialog.Name = "checkBoxLeadingIncludeDialog";
             this.checkBoxLeadingIncludeDialog.Size = new System.Drawing.Size(159, 21);
             this.checkBoxLeadingIncludeDialog.TabIndex = 2;
@@ -1198,7 +1203,7 @@
             this.checkBoxLeadingIncludeAudioClips.Checked = true;
             this.checkBoxLeadingIncludeAudioClips.CheckState = System.Windows.Forms.CheckState.Checked;
             this.checkBoxLeadingIncludeAudioClips.Location = new System.Drawing.Point(220, 49);
-            this.checkBoxLeadingIncludeAudioClips.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBoxLeadingIncludeAudioClips.Margin = new System.Windows.Forms.Padding(4);
             this.checkBoxLeadingIncludeAudioClips.Name = "checkBoxLeadingIncludeAudioClips";
             this.checkBoxLeadingIncludeAudioClips.Size = new System.Drawing.Size(139, 21);
             this.checkBoxLeadingIncludeAudioClips.TabIndex = 2;
@@ -1211,7 +1216,7 @@
             this.checkBoxLeadingIncludeSnapshots.Checked = true;
             this.checkBoxLeadingIncludeSnapshots.CheckState = System.Windows.Forms.CheckState.Checked;
             this.checkBoxLeadingIncludeSnapshots.Location = new System.Drawing.Point(12, 78);
-            this.checkBoxLeadingIncludeSnapshots.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBoxLeadingIncludeSnapshots.Margin = new System.Windows.Forms.Padding(4);
             this.checkBoxLeadingIncludeSnapshots.Name = "checkBoxLeadingIncludeSnapshots";
             this.checkBoxLeadingIncludeSnapshots.Size = new System.Drawing.Size(137, 21);
             this.checkBoxLeadingIncludeSnapshots.TabIndex = 3;
@@ -1230,7 +1235,7 @@
             this.tabPageActors.Controls.Add(this.buttonActorCheck);
             this.tabPageActors.Controls.Add(this.listBoxActors);
             this.tabPageActors.Location = new System.Drawing.Point(4, 25);
-            this.tabPageActors.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPageActors.Margin = new System.Windows.Forms.Padding(4);
             this.tabPageActors.Name = "tabPageActors";
             this.tabPageActors.Size = new System.Drawing.Size(595, 448);
             this.tabPageActors.TabIndex = 2;
@@ -1243,7 +1248,7 @@
             this.textBoxActorHelp.BackColor = System.Drawing.Color.LemonChiffon;
             this.textBoxActorHelp.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBoxActorHelp.Location = new System.Drawing.Point(11, 12);
-            this.textBoxActorHelp.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBoxActorHelp.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxActorHelp.Multiline = true;
             this.textBoxActorHelp.Name = "textBoxActorHelp";
             this.textBoxActorHelp.ReadOnly = true;
@@ -1258,7 +1263,7 @@
             // 
             this.buttonActorInvert.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.buttonActorInvert.Location = new System.Drawing.Point(327, 410);
-            this.buttonActorInvert.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buttonActorInvert.Margin = new System.Windows.Forms.Padding(4);
             this.buttonActorInvert.Name = "buttonActorInvert";
             this.buttonActorInvert.Size = new System.Drawing.Size(100, 28);
             this.buttonActorInvert.TabIndex = 4;
@@ -1283,7 +1288,7 @@
             // 
             this.buttonActorNone.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.buttonActorNone.Location = new System.Drawing.Point(435, 410);
-            this.buttonActorNone.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buttonActorNone.Margin = new System.Windows.Forms.Padding(4);
             this.buttonActorNone.Name = "buttonActorNone";
             this.buttonActorNone.Size = new System.Drawing.Size(100, 28);
             this.buttonActorNone.TabIndex = 5;
@@ -1296,7 +1301,7 @@
             // 
             this.buttonActorAll.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.buttonActorAll.Location = new System.Drawing.Point(219, 410);
-            this.buttonActorAll.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buttonActorAll.Margin = new System.Windows.Forms.Padding(4);
             this.buttonActorAll.Name = "buttonActorAll";
             this.buttonActorAll.Size = new System.Drawing.Size(100, 28);
             this.buttonActorAll.TabIndex = 3;
@@ -1311,9 +1316,9 @@
             this.groupBoxUseActorFrom.Controls.Add(this.radioButtonSubs1Actor);
             this.groupBoxUseActorFrom.Controls.Add(this.radioButtonSubs2Actor);
             this.groupBoxUseActorFrom.Location = new System.Drawing.Point(49, 58);
-            this.groupBoxUseActorFrom.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBoxUseActorFrom.Margin = new System.Windows.Forms.Padding(4);
             this.groupBoxUseActorFrom.Name = "groupBoxUseActorFrom";
-            this.groupBoxUseActorFrom.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBoxUseActorFrom.Padding = new System.Windows.Forms.Padding(4);
             this.groupBoxUseActorFrom.Size = new System.Drawing.Size(144, 89);
             this.groupBoxUseActorFrom.TabIndex = 0;
             this.groupBoxUseActorFrom.TabStop = false;
@@ -1324,7 +1329,7 @@
             this.radioButtonSubs1Actor.AutoSize = true;
             this.radioButtonSubs1Actor.Checked = true;
             this.radioButtonSubs1Actor.Location = new System.Drawing.Point(16, 25);
-            this.radioButtonSubs1Actor.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radioButtonSubs1Actor.Margin = new System.Windows.Forms.Padding(4);
             this.radioButtonSubs1Actor.Name = "radioButtonSubs1Actor";
             this.radioButtonSubs1Actor.Size = new System.Drawing.Size(69, 21);
             this.radioButtonSubs1Actor.TabIndex = 0;
@@ -1337,7 +1342,7 @@
             // 
             this.radioButtonSubs2Actor.AutoSize = true;
             this.radioButtonSubs2Actor.Location = new System.Drawing.Point(16, 57);
-            this.radioButtonSubs2Actor.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radioButtonSubs2Actor.Margin = new System.Windows.Forms.Padding(4);
             this.radioButtonSubs2Actor.Name = "radioButtonSubs2Actor";
             this.radioButtonSubs2Actor.Size = new System.Drawing.Size(69, 21);
             this.radioButtonSubs2Actor.TabIndex = 1;
@@ -1349,7 +1354,7 @@
             // buttonActorCheck
             // 
             this.buttonActorCheck.Location = new System.Drawing.Point(49, 154);
-            this.buttonActorCheck.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buttonActorCheck.Margin = new System.Windows.Forms.Padding(4);
             this.buttonActorCheck.Name = "buttonActorCheck";
             this.buttonActorCheck.Size = new System.Drawing.Size(144, 28);
             this.buttonActorCheck.TabIndex = 1;
@@ -1364,7 +1369,7 @@
             this.listBoxActors.FormattingEnabled = true;
             this.listBoxActors.ItemHeight = 16;
             this.listBoxActors.Location = new System.Drawing.Point(219, 78);
-            this.listBoxActors.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.listBoxActors.Margin = new System.Windows.Forms.Padding(4);
             this.listBoxActors.Name = "listBoxActors";
             this.listBoxActors.SelectionMode = System.Windows.Forms.SelectionMode.MultiSimple;
             this.listBoxActors.Size = new System.Drawing.Size(315, 324);
@@ -1376,9 +1381,9 @@
             this.tabPageLang.BackColor = System.Drawing.Color.Transparent;
             this.tabPageLang.Controls.Add(this.groupBoxJapaneseSpecific);
             this.tabPageLang.Location = new System.Drawing.Point(4, 25);
-            this.tabPageLang.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPageLang.Margin = new System.Windows.Forms.Padding(4);
             this.tabPageLang.Name = "tabPageLang";
-            this.tabPageLang.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPageLang.Padding = new System.Windows.Forms.Padding(4);
             this.tabPageLang.Size = new System.Drawing.Size(595, 448);
             this.tabPageLang.TabIndex = 1;
             this.tabPageLang.Text = "Language Specific";
@@ -1390,9 +1395,9 @@
             this.groupBoxJapaneseSpecific.BackColor = System.Drawing.Color.Transparent;
             this.groupBoxJapaneseSpecific.Controls.Add(this.checkBoxJapKanjiOnly);
             this.groupBoxJapaneseSpecific.Location = new System.Drawing.Point(11, 7);
-            this.groupBoxJapaneseSpecific.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBoxJapaneseSpecific.Margin = new System.Windows.Forms.Padding(4);
             this.groupBoxJapaneseSpecific.Name = "groupBoxJapaneseSpecific";
-            this.groupBoxJapaneseSpecific.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBoxJapaneseSpecific.Padding = new System.Windows.Forms.Padding(4);
             this.groupBoxJapaneseSpecific.Size = new System.Drawing.Size(571, 52);
             this.groupBoxJapaneseSpecific.TabIndex = 1;
             this.groupBoxJapaneseSpecific.TabStop = false;
@@ -1402,7 +1407,7 @@
             // 
             this.checkBoxJapKanjiOnly.AutoSize = true;
             this.checkBoxJapKanjiOnly.Location = new System.Drawing.Point(12, 23);
-            this.checkBoxJapKanjiOnly.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBoxJapKanjiOnly.Margin = new System.Windows.Forms.Padding(4);
             this.checkBoxJapKanjiOnly.Name = "checkBoxJapKanjiOnly";
             this.checkBoxJapKanjiOnly.Size = new System.Drawing.Size(257, 21);
             this.checkBoxJapKanjiOnly.TabIndex = 0;
@@ -1414,7 +1419,7 @@
             this.tabPageVobsub.BackColor = System.Drawing.Color.Transparent;
             this.tabPageVobsub.Controls.Add(this.groupBoxCheckVobsubColors);
             this.tabPageVobsub.Location = new System.Drawing.Point(4, 25);
-            this.tabPageVobsub.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPageVobsub.Margin = new System.Windows.Forms.Padding(4);
             this.tabPageVobsub.Name = "tabPageVobsub";
             this.tabPageVobsub.Size = new System.Drawing.Size(595, 448);
             this.tabPageVobsub.TabIndex = 5;
@@ -1438,7 +1443,7 @@
             this.groupBoxCheckVobsubColors.Controls.Add(this.checkBoxColorBackground);
             this.groupBoxCheckVobsubColors.Controls.Add(this.labelVobsubColorOutline);
             this.groupBoxCheckVobsubColors.Location = new System.Drawing.Point(11, 7);
-            this.groupBoxCheckVobsubColors.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBoxCheckVobsubColors.Margin = new System.Windows.Forms.Padding(4);
             this.groupBoxCheckVobsubColors.Name = "groupBoxCheckVobsubColors";
             this.groupBoxCheckVobsubColors.Padding = new System.Windows.Forms.Padding(0, 4, 0, 0);
             this.groupBoxCheckVobsubColors.Size = new System.Drawing.Size(571, 239);
@@ -1451,7 +1456,7 @@
             // 
             this.panelColorBackground.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panelColorBackground.Location = new System.Drawing.Point(109, 34);
-            this.panelColorBackground.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panelColorBackground.Margin = new System.Windows.Forms.Padding(4);
             this.panelColorBackground.Name = "panelColorBackground";
             this.panelColorBackground.Size = new System.Drawing.Size(42, 39);
             this.panelColorBackground.TabIndex = 8;
@@ -1460,7 +1465,7 @@
             // buttonResetColors
             // 
             this.buttonResetColors.Location = new System.Drawing.Point(381, 112);
-            this.buttonResetColors.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buttonResetColors.Margin = new System.Windows.Forms.Padding(4);
             this.buttonResetColors.Name = "buttonResetColors";
             this.buttonResetColors.Size = new System.Drawing.Size(120, 28);
             this.buttonResetColors.TabIndex = 16;
@@ -1473,7 +1478,7 @@
             // 
             this.checkBoxColorAntialias.AutoSize = true;
             this.checkBoxColorAntialias.Location = new System.Drawing.Point(175, 190);
-            this.checkBoxColorAntialias.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBoxColorAntialias.Margin = new System.Windows.Forms.Padding(4);
             this.checkBoxColorAntialias.Name = "checkBoxColorAntialias";
             this.checkBoxColorAntialias.Size = new System.Drawing.Size(108, 21);
             this.checkBoxColorAntialias.TabIndex = 15;
@@ -1484,7 +1489,7 @@
             // 
             this.panelColorOutline.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panelColorOutline.Location = new System.Drawing.Point(109, 134);
-            this.panelColorOutline.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panelColorOutline.Margin = new System.Windows.Forms.Padding(4);
             this.panelColorOutline.Name = "panelColorOutline";
             this.panelColorOutline.Size = new System.Drawing.Size(42, 39);
             this.panelColorOutline.TabIndex = 10;
@@ -1504,7 +1509,7 @@
             // 
             this.panelColorText.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panelColorText.Location = new System.Drawing.Point(109, 85);
-            this.panelColorText.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panelColorText.Margin = new System.Windows.Forms.Padding(4);
             this.panelColorText.Name = "panelColorText";
             this.panelColorText.Size = new System.Drawing.Size(42, 39);
             this.panelColorText.TabIndex = 9;
@@ -1514,7 +1519,7 @@
             // 
             this.checkBoxColorOutline.AutoSize = true;
             this.checkBoxColorOutline.Location = new System.Drawing.Point(175, 142);
-            this.checkBoxColorOutline.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBoxColorOutline.Margin = new System.Windows.Forms.Padding(4);
             this.checkBoxColorOutline.Name = "checkBoxColorOutline";
             this.checkBoxColorOutline.Size = new System.Drawing.Size(108, 21);
             this.checkBoxColorOutline.TabIndex = 14;
@@ -1525,7 +1530,7 @@
             // 
             this.panelColorAntialias.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panelColorAntialias.Location = new System.Drawing.Point(109, 181);
-            this.panelColorAntialias.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panelColorAntialias.Margin = new System.Windows.Forms.Padding(4);
             this.panelColorAntialias.Name = "panelColorAntialias";
             this.panelColorAntialias.Size = new System.Drawing.Size(42, 39);
             this.panelColorAntialias.TabIndex = 11;
@@ -1555,7 +1560,7 @@
             // 
             this.checkBoxColorText.AutoSize = true;
             this.checkBoxColorText.Location = new System.Drawing.Point(175, 94);
-            this.checkBoxColorText.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBoxColorText.Margin = new System.Windows.Forms.Padding(4);
             this.checkBoxColorText.Name = "checkBoxColorText";
             this.checkBoxColorText.Size = new System.Drawing.Size(108, 21);
             this.checkBoxColorText.TabIndex = 13;
@@ -1568,7 +1573,7 @@
             this.checkBoxColorBackground.Checked = true;
             this.checkBoxColorBackground.CheckState = System.Windows.Forms.CheckState.Checked;
             this.checkBoxColorBackground.Location = new System.Drawing.Point(175, 43);
-            this.checkBoxColorBackground.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBoxColorBackground.Margin = new System.Windows.Forms.Padding(4);
             this.checkBoxColorBackground.Name = "checkBoxColorBackground";
             this.checkBoxColorBackground.Size = new System.Drawing.Size(108, 21);
             this.checkBoxColorBackground.TabIndex = 12;
@@ -1585,6 +1590,65 @@
             this.labelVobsubColorOutline.TabIndex = 3;
             this.labelVobsubColorOutline.Text = "Outline:";
             // 
+            // TabNewFunctions
+            // 
+            this.TabNewFunctions.Controls.Add(this.numericUpDownSubsConcateFewer);
+            this.TabNewFunctions.Controls.Add(this.label1);
+            this.TabNewFunctions.Controls.Add(this.checkBoxSubsConcateFewer);
+            this.TabNewFunctions.Location = new System.Drawing.Point(4, 25);
+            this.TabNewFunctions.Name = "TabNewFunctions";
+            this.TabNewFunctions.Padding = new System.Windows.Forms.Padding(3);
+            this.TabNewFunctions.Size = new System.Drawing.Size(595, 448);
+            this.TabNewFunctions.TabIndex = 7;
+            this.TabNewFunctions.Text = "New Functions";
+            this.TabNewFunctions.UseVisualStyleBackColor = true;
+            // 
+            // numericUpDownSubsConcateFewer
+            // 
+            this.numericUpDownSubsConcateFewer.Enabled = false;
+            this.numericUpDownSubsConcateFewer.Location = new System.Drawing.Point(225, 22);
+            this.numericUpDownSubsConcateFewer.Margin = new System.Windows.Forms.Padding(4);
+            this.numericUpDownSubsConcateFewer.Maximum = new decimal(new int[] {
+            99999,
+            0,
+            0,
+            0});
+            this.numericUpDownSubsConcateFewer.Minimum = new decimal(new int[] {
+            2,
+            0,
+            0,
+            0});
+            this.numericUpDownSubsConcateFewer.Name = "numericUpDownSubsConcateFewer";
+            this.numericUpDownSubsConcateFewer.Size = new System.Drawing.Size(81, 22);
+            this.numericUpDownSubsConcateFewer.TabIndex = 8;
+            this.numericUpDownSubsConcateFewer.Value = new decimal(new int[] {
+            8,
+            0,
+            0,
+            0});
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(314, 24);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(75, 17);
+            this.label1.TabIndex = 9;
+            this.label1.Text = "characters";
+            // 
+            // checkBoxSubsConcateFewer
+            // 
+            this.checkBoxSubsConcateFewer.AutoSize = true;
+            this.checkBoxSubsConcateFewer.Location = new System.Drawing.Point(9, 23);
+            this.checkBoxSubsConcateFewer.Margin = new System.Windows.Forms.Padding(4);
+            this.checkBoxSubsConcateFewer.Name = "checkBoxSubsConcateFewer";
+            this.checkBoxSubsConcateFewer.Size = new System.Drawing.Size(213, 21);
+            this.checkBoxSubsConcateFewer.TabIndex = 7;
+            this.checkBoxSubsConcateFewer.Text = "Concate lines with fewer than";
+            this.checkBoxSubsConcateFewer.UseVisualStyleBackColor = true;
+            this.checkBoxSubsConcateFewer.CheckedChanged += new System.EventHandler(this.checkBoxSubsConcateFewer_CheckedChanged);
+            // 
             // panelBottom
             // 
             this.panelBottom.BackColor = System.Drawing.SystemColors.Control;
@@ -1593,7 +1657,7 @@
             this.panelBottom.Controls.Add(this.buttonOK);
             this.panelBottom.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panelBottom.Location = new System.Drawing.Point(0, 477);
-            this.panelBottom.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panelBottom.Margin = new System.Windows.Forms.Padding(4);
             this.panelBottom.Name = "panelBottom";
             this.panelBottom.Size = new System.Drawing.Size(603, 50);
             this.panelBottom.TabIndex = 1;
@@ -1604,7 +1668,7 @@
             this.buttonCancel.CausesValidation = false;
             this.buttonCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.buttonCancel.Location = new System.Drawing.Point(484, 7);
-            this.buttonCancel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buttonCancel.Margin = new System.Windows.Forms.Padding(4);
             this.buttonCancel.Name = "buttonCancel";
             this.buttonCancel.Size = new System.Drawing.Size(103, 28);
             this.buttonCancel.TabIndex = 1;
@@ -1616,7 +1680,7 @@
             this.buttonOK.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.buttonOK.DialogResult = System.Windows.Forms.DialogResult.OK;
             this.buttonOK.Location = new System.Drawing.Point(373, 7);
-            this.buttonOK.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buttonOK.Margin = new System.Windows.Forms.Padding(4);
             this.buttonOK.Name = "buttonOK";
             this.buttonOK.Size = new System.Drawing.Size(103, 28);
             this.buttonOK.TabIndex = 0;
@@ -1638,16 +1702,6 @@
             // 
             this.errorProvider1.ContainerControl = this;
             // 
-            // TabNewFunctions
-            // 
-            this.TabNewFunctions.Location = new System.Drawing.Point(4, 25);
-            this.TabNewFunctions.Name = "TabNewFunctions";
-            this.TabNewFunctions.Padding = new System.Windows.Forms.Padding(3);
-            this.TabNewFunctions.Size = new System.Drawing.Size(595, 448);
-            this.TabNewFunctions.TabIndex = 7;
-            this.TabNewFunctions.Text = "New Functions";
-            this.TabNewFunctions.UseVisualStyleBackColor = true;
-            // 
             // DialogAdvancedSubtitleOptions
             // 
             this.AcceptButton = this.buttonOK;
@@ -1659,7 +1713,7 @@
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.panelBottom);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "DialogAdvancedSubtitleOptions";
@@ -1705,6 +1759,9 @@
             this.tabPageVobsub.ResumeLayout(false);
             this.groupBoxCheckVobsubColors.ResumeLayout(false);
             this.groupBoxCheckVobsubColors.PerformLayout();
+            this.TabNewFunctions.ResumeLayout(false);
+            this.TabNewFunctions.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownSubsConcateFewer)).EndInit();
             this.panelBottom.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
@@ -1820,5 +1877,8 @@
     private System.Windows.Forms.TextBox textBoxSubs2JoinSentenceChars;
     private System.Windows.Forms.CheckBox checkBoxSubs2JoinSentences;
         private System.Windows.Forms.TabPage TabNewFunctions;
+        private System.Windows.Forms.NumericUpDown numericUpDownSubsConcateFewer;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.CheckBox checkBoxSubsConcateFewer;
     }
 }

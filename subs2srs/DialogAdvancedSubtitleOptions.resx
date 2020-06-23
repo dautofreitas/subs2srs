@@ -201,18 +201,6 @@ the context of the line said right after the credits.
 
 To disable this feature, set to 0.</value>
   </data>
-  <data name="checkBox1.ToolTip" xml:space="preserve">
-    <value>For example, given these 3 lines:
-
-  LineA,
-  LineB,
-  LineC.
-
-when this option is enabled and the box to the right contains a comma,
-then these lines will be combined as follows:
-
-  LineA, LineB, LineC.</value>
-  </data>
   <metadata name="colorDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>109, 17</value>
   </metadata>

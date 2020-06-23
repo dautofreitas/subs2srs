@@ -556,6 +556,9 @@ namespace subs2srs
       }
     }
 
-
-  }
+        private void checkBoxSubsConcateFewer_CheckedChanged(object sender, EventArgs e)
+        {
+            numericUpDownSubsConcateFewer.Enabled = checkBoxSubsConcateFewer.Checked;
+        }
+    }
 }
